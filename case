@@ -1,0 +1,21 @@
+int c = 0;
+srand(tim(0));
+c = rand() % 13;
+switch (c)
+{
+  case 12:
+    cout << "Ace";
+      break; 
+  case 11:
+    cout << "King";
+      break;
+  case 10:
+     cout << "Queen";
+       break;
+  case 9:
+     cout << "Jack"
+      break;
+  default:
+     cout << c + 2;
+      break;
+)
